@@ -15,7 +15,7 @@ def isogramCounter(fileName):
         cleanLines = lines.strip().lower()
         wordList.append(cleanLines)
     for words in wordList:
-        if isAnagram is True:
+        if isAnagram(words) is True:
             counter +=1
 
 
