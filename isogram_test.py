@@ -8,3 +8,5 @@ class testIsogram(unittest.TestCase):
     def testUpperCaseAndLowerCaseAreEqual(self):
         self.assertEqual(isogramCounter("Prueba1.txt"),1)
     
+    def testIsogramList(self):
+        self.assertEqual(isogramCounter("Isogram list.txt"),4376)
